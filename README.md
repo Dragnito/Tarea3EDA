@@ -20,7 +20,7 @@ Ejemplo:
 
 ESTRUCTURA DEL PROYECTO
 
-tarea3/
+grupo11-T23/
 ├── main.c
 ├── Makefile
 ├── rutas.txt
