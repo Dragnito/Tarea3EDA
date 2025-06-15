@@ -1,7 +1,6 @@
 Integrantes: Valentin Malov y Christian Looff Harwardt
 
-Este programa recibe un archivo txt con la siguiente estrucura de datos: CIUDAD_ORIGEN CIUDAD_DESTINO DISTANCIA_EN_KM.
-A partir de estos datos, se construye un grafo no dirigido, donde cada nodo representa una ciudad y cada arista representa una conexión directa entre ellas con un peso igual a la distancia. 
+Este programa recibe un archivo txt con la siguiente estrucura de datos: CIUDAD_ORIGEN CIUDAD_DESTINO DISTANCIA_EN_KM. A partir de estos datos, se construye un grafo no dirigido, donde cada nodo representa una ciudad y cada arista representa una conexión directa entre ellas con un peso igual a la distancia. 
 
 El objetivo del programa es determinar la ruta óptima (es decir, la más corta en términos de distancia) entre dos ciudades dadas, utilizando el algoritmo de Dijkstra.
 
@@ -24,6 +23,11 @@ ESTRUCTURA DEL PROYECTO
 tarea3/
 ├── main.c
 ├── Makefile
+├── rutas.txt
+├── README.md
+├── .vscode/
+│   ├── launch.json
+│   └── tasks.json
 └── modules/
     ├── processor.c
     ├── processor.h
